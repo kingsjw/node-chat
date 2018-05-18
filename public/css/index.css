@@ -1,0 +1,47 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+::-webkit-scrollbar{width: 0;background: transparent;}
+.wrap{width: 800px;margin: 3% auto;border-left: 1px solid #38bcab;border-right: 1px solid #38bcab;}
+.header{width: 100%;height: 60px;background-color: #34495E;color: #fff;text-align: center;line-height: 60px;font-size: 30px;font-weight: bold;}
+form { padding: 5px;width: 100%;border-top: 1px solid #38bcab;border-bottom: 1px solid #38bcab;}
+
+form button { width: 14%; background: rgb(130, 224, 255); border: none; padding: 10px;text-align: center;}
+#messages { list-style-type: none;width: 100%;float: left;}
+.point{color: #64b5f6;}
+.mychat, .n_my{max-width: 40%;min-width:30%;word-break: break-all;margin-bottom: 20px;background-color: #41CCB4;height: auto;padding: 1%;clear: both;color:#333;margin-top: 10px;position: relative;border-radius: 5%;}
+.mychat{margin-right: 20px;background-color: #fff;color: #333;box-shadow: 1px 2px 3px #666;}
+.n_my{margin-left: 20px;box-shadow: -1px 2px 3px #666;}
+.tail1{
+  position: absolute;
+  border-top: 15px solid #fff;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  bottom: -7px;
+  right: -5.4px;
+  z-index: 9;
+  transform: rotate(-40deg);
+
+}
+.tail2{
+  position: absolute;
+  border-top: 15px solid #41CCB4;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  bottom: -7px;
+  left: -5.4px;
+  z-index: 9;
+  transform: rotate(40deg);
+}
+.n_my{float: left;margin-left: 60px;}
+
+.form_wrap{width: 100%;height: 600px;overflow: scroll;}
+
+.time{position: absolute;bottom:-20px;color: #333;}
+.dn{display: none;}
+.db{display: block;}
+.profile{position: absolute;left: -50px;top: 5px;}
+.profile img{border-radius: 100%;}
+.mask{width: 100%;height: 100%;position: absolute;left: 0;right: 0;top:0;bottom: 0;background-color: rgba(0,0,0,0.6);display: none;}
+#s_btn{width: 15%;float: left;margin-left: 15px;margin-top: 50px;}
+.input-field{float: left;width: 83%;}
+.form_wrap{background-color: #E1E1E1;}
